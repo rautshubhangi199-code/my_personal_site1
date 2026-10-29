@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shubhangi Raut | Frontend Developer &amp; React Specialist</title>
+  <meta name="description" content="Portfolio of Shubhangi Raut - Frontend Developer at Ordinet Solutions, MCA (8.7 CGPA), skilled in React.js, TypeScript, HTML, CSS, JavaScript, Redux, RESTful APIs, Git, and Jira." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background Glow & Grid -->
+  <div class="bg-glow glow-top-left"></div>
+  <div class="bg-glow glow-bottom-right"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="brand-badge">S</span>
+        <span class="brand-name">Shubhangi Raut</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/Shubhangi_Raut_Resume.pdf" download="Shubhangi_Raut_Resume.pdf" class="btn-resume-header">
+          Download Resume
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dash">&mdash;</span> FRONTEND DEVELOPER &middot; REACT.JS SPECIALIST &middot; UI/UX &amp; DASHBOARD ENGINEER
+          </div>
+
+          <h1 class="hero-title serif-title">
+            Shubhangi<br />Raut
+          </h1>
+
+          <p class="hero-lead">
+            Frontend Developer building responsive, high-performance web applications using React.js, TypeScript, and modern UI frameworks &mdash; with hands-on experience in AI platforms, real-time dashboards, and enterprise MIS systems.
+          </p>
+
+          <p class="hero-secondary-desc">
+            Frontend Developer at Ordinet Solutions (since Feb 2026). Hands-on frontend engineering &mdash; REST APIs, role-wise dashboards, state management with Redux &amp; Context API, Chart.js &amp; ApexCharts, Bootstrap, MUI, Git &amp; Jira &mdash; MCA from SGBAU (8.7 CGPA) and 8.9 Graduation CGPA.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-teal">View projects</a>
+            <a href="assets/Shubhangi_Raut_Resume.pdf" download="Shubhangi_Raut_Resume.pdf" class="btn btn-dark-outline">
+              Download Resume
+            </a>
+          </div>
+
+          <div class="hero-footer-meta">
+            <span class="meta-location">Amravati &amp; Maharashtra, India</span>
+            <a href="mailto:rautshubhangi199@gmail.com" class="meta-link">rautshubhangi199@gmail.com</a>
+            <a href="tel:+919579320846" class="meta-link">+91 9579320846</a>
+          </div>
+
+          <div class="hero-motto">
+            Be kind to yourself and others
+          </div>
+        </div>
+
+        <div class="hero-card-wrapper">
+          <div class="aditya-style-photo-card">
+            <div class="photo-img-container">
+              <img src="assets/profile.jpg" alt="Shubhangi Raut" class="aditya-photo" />
+              <div class="photo-card-caption">
+                Frontend Developer &middot; React Specialist &middot; UI Engineer
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat-box">
+          <div class="stat-number">8.7<span class="stat-unit">/10</span></div>
+          <div class="stat-label">MCA CGPA (Batch 2024)</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">8.9<span class="stat-unit">/10</span></div>
+          <div class="stat-label">Graduation CGPA</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">6+</div>
+          <div class="stat-label">Enterprise &amp; AI Projects</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">2026</div>
+          <div class="stat-label">Ordinet Solutions Developer</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Crafting User-Centric &amp; High-Performance Web Apps</h2>
+          <p class="section-subtitle">A collaborative problem-solver adept at performance optimization, UI engineering, and modern web architectures.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card main-bio">
+            <div class="bio-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3>Who I Am</h3>
+            <p>
+              I am <strong>Shubhangi Raut</strong>, a passionate Frontend Developer at <strong>Ordinet Solutions Pvt. Ltd, Amravati</strong>, having joined on <strong>February 4, 2026</strong>. I completed my Master of Computer Applications (MCA) in 2024 from <strong>Sant Gadge Baba Amravati University</strong> with an <strong>8.7 CGPA</strong>, following a <strong>8.9 CGPA</strong> in my graduation.
+            </p>
+            <p>
+              My expertise centers around translating UI/UX designs into scalable, cross-browser compatible web applications using <strong>React.js, TypeScript, JavaScript (ES6+), HTML5, and CSS3</strong>. I have extensive experience in state management with <strong>Redux &amp; Context API</strong>, responsive design with <strong>Bootstrap &amp; Material-UI (MUI)</strong>, dynamic data visualizations with <strong>Chart.js &amp; ApexCharts</strong>, and agile sprint collaboration via <strong>Jira &amp; Git/GitHub</strong>.
+            </p>
+          </div>
+
+          <div class="about-side-cards">
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h4>React.js &amp; TypeScript</h4>
+                <p>Modular, reusable components, Redux state management, and strict type safety for maintainable codebases.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <div>
+                <h4>Data Dashboards &amp; APIs</h4>
+                <p>Interactive data visualizations with Chart.js and ApexCharts, integrated with secure RESTful APIs.</p>
+              </div>
+            </div>
+
+            <div class="feature-box">
+              <div class="feature-icon"><i class="fa-solid fa-people-group"></i></div>
+              <div>
+                <h4>Agile Delivery &amp; Jira</h4>
+                <p>Active sprint cycles, requirement tracking, and team collaboration through Jira and GitHub version control.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="experience-top-bar">
+          <h2 class="experience-main-title serif-title">Experience</h2>
+          <p class="experience-top-subtext">Ordinet intern since 4 Feb 2026 · frontend development &amp; web platforms</p>
+        </div>
+        <div class="experience-divider"></div>
+
+        <div class="experience-company-card">
+          <!-- Company Header Bar -->
+          <div class="exp-company-header">
+            <div class="exp-company-title-row">
+              <h3 class="exp-company-name">Ordinet Solutions Pvt. Ltd</h3>
+              <span class="exp-company-dates">4 Feb 2026 – Present</span>
+            </div>
+            <p class="exp-company-meta">Intern · Amravati, Maharashtra · Frontend Development</p>
+          </div>
+
+          <!-- Role Item -->
+          <div class="exp-role-item">
+            <div class="exp-role-title-row">
+              <div class="exp-role-left">
+                <h4 class="exp-role-title">Frontend Developer Intern</h4>
+                <span class="badge-current">CURRENT</span>
+              </div>
+              <span class="exp-role-dates">4 Feb 2026 – Present</span>
+            </div>
+
+            <div class="exp-tech-pills">
+              <span class="exp-pill">React.js</span>
+              <span class="exp-pill">JavaScript (ES6+)</span>
+              <span class="exp-pill">Bootstrap</span>
+              <span class="exp-pill">Material-UI</span>
+              <span class="exp-pill">RESTful API</span>
+              <span class="exp-pill">ApexCharts</span>
+              <span class="exp-pill">Git</span>
+              <span class="exp-pill">Jira</span>
+            </div>
+
+            <ul class="exp-bullets">
+              <li>Build and optimize responsive frontend interfaces for <strong>NexGen AI</strong>, <strong>Vistaar AI</strong>, and <strong>Artiquity</strong> using <strong>React.js</strong>, <strong>Bootstrap</strong>, and <strong>Material-UI (MUI)</strong>.</li>
+              <li>Engineer interactive MIS dashboards for <strong>Sumit MIS</strong>, <strong>Plant Process</strong>, and <strong>MHPSC</strong>; integrate <strong>RESTful APIs</strong> for real-time reporting and role-based access.</li>
+              <li>Implement dynamic data visualizations with <strong>ApexCharts</strong> and <strong>Chart.js</strong>; collaborate within Agile sprint cycles using <strong>Jira</strong> and clean <strong>Git/GitHub</strong> version control.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Tools and technologies I use to build robust software systems.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <i class="fa-brands fa-react cat-icon"></i>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>HTML5, CSS3, JavaScript (ES6+)</span><span>Expert</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>React.js</span><span>Advanced</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 92%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Redux, Context API, TypeScript</span><span>Proficient</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <i class="fa-solid fa-layer-group cat-icon"></i>
+              <h3>UI Architecture &amp; APIs</h3>
+            </div>
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>Responsive Design, Bootstrap, MUI</span><span>Expert</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 92%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>RESTful API Integration</span><span>Advanced</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Chart.js, ApexCharts</span><span>Advanced</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 86%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <i class="fa-solid fa-screwdriver-wrench cat-icon"></i>
+              <h3>Tools &amp; Database</h3>
+            </div>
+            <div class="skills-items">
+              <div class="skill-item">
+                <div class="skill-info"><span>Git &amp; Version Control</span><span>Advanced</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>WordPress</span><span>Proficient</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 82%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>SQL &amp; Database Handling</span><span>Proficient</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-top-bar">
+          <h2 class="projects-main-title serif-title">Projects</h2>
+          <p class="projects-top-subtext">Flagship platforms first — more work below</p>
+        </div>
+
+        <div class="proj-grid" id="projPrimary">
+          <article class="proj featured">
+            <div class="proj-type">Flagship · Wellness · Brand Website</div>
+            <h3><a href="https://www.iraaya.co" target="_blank" rel="noopener">Iraaya Wellness</a></h3>
+            <p class="proj-role">Frontend Developer · React.js · Brand UI</p>
+            <p>Brand and product website for Iraaya Wellness — translating time-tested Ayurvedic knowledge into modern daily formats. Built as a responsive React experience covering shop, ingredients, brand story, principles, and contact flows.</p>
+            <ul class="proj-list">
+              <li>Designed and developed a fully responsive multi-section brand website with Shop, Ingredients, Our Story, Principles, and Contact.</li>
+              <li>Built reusable React components for product showcases, ingredient storytelling, and founder/brand narrative sections.</li>
+              <li>Focused on premium visual hierarchy, mobile-first layouts, and a cohesive wellness brand aesthetic.</li>
+              <li>Structured content and product data for scalable catalog presentation across shots, blends, teas, capsules, and lifestyle lines.</li>
+            </ul>
+            <p class="proj-own">Ownership: Brand Layouts → Component UI → Product &amp; Ingredient Screens → Responsive Delivery</p>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">Vite</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">HTML</span>
+              <span class="proj-tag">CSS</span>
+              <span class="proj-tag">Responsive UI</span>
+              <span class="proj-tag">Brand Website</span>
+            </div>
+            <a class="proj-link" href="https://www.iraaya.co" target="_blank" rel="noopener">Visit site →</a>
+          </article>
+
+          <article class="proj featured">
+            <div class="proj-type">Flagship · AI Platform</div>
+            <h3>NexGen AI</h3>
+            <p class="proj-role">Frontend Developer · React.js · UI Architecture</p>
+            <p>Designed and developed a fully responsive AI platform UI using React.js, TypeScript, Bootstrap, and Material-UI — with modular components for a seamless booking experience and mobile-first responsiveness.</p>
+            <ul class="proj-list">
+              <li>Built modular React components and reusable UI patterns for booking flows and platform screens.</li>
+              <li>Implemented fully responsive layouts with Bootstrap and Material-UI across desktop and mobile.</li>
+              <li>Integrated REST APIs for dynamic data and smooth frontend–backend communication.</li>
+              <li>Focused on TypeScript safety, clean component structure, and consistent visual hierarchy.</li>
+              <li>Collaborated in Agile sprints with Git/GitHub and Jira for delivery tracking.</li>
+            </ul>
+            <p class="proj-own">Ownership: UI Requirements → Component Architecture → Responsive Layouts → API Integration → Dashboard Screens → Delivery</p>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">TypeScript</span>
+              <span class="proj-tag">Bootstrap</span>
+              <span class="proj-tag">Material-UI</span>
+              <span class="proj-tag">REST APIs</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">HTML</span>
+              <span class="proj-tag">CSS</span>
+            </div>
+          </article>
+
+          <article class="proj featured">
+            <div class="proj-type">Flagship · Real Estate AI</div>
+            <h3>Vistaar AI Dashboard</h3>
+            <p class="proj-role">Frontend Developer · Dashboard Engineer · Data Visualization</p>
+            <p>Comprehensive real estate management dashboard built with React.js, Gridstack, and ApexCharts — visualizing key metrics, multidimensional project data, and AI-driven suggestions for decision-making.</p>
+            <ul class="proj-list">
+              <li>Engineered interactive dashboard layouts with Gridstack for flexible widget arrangement.</li>
+              <li>Built data visualizations with ApexCharts for metrics, trends, and operational insights.</li>
+              <li>Integrated AI-driven suggestion surfaces into the dashboard experience.</li>
+              <li>Delivered responsive, role-ready UI using React.js and Bootstrap.</li>
+            </ul>
+            <p class="proj-own">Ownership: Dashboard Layout → Chart Integration → Widget Architecture → Responsive UI → Delivery</p>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">ApexCharts</span>
+              <span class="proj-tag">Gridstack</span>
+              <span class="proj-tag">Bootstrap</span>
+              <span class="proj-tag">AI Insights</span>
+              <span class="proj-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="proj featured">
+            <div class="proj-type">Web Platform · Marketplace UI</div>
+            <h3>Artiquity Platform</h3>
+            <p class="proj-role">Frontend Developer · UI/UX · React.js</p>
+            <p>Designed and developed responsive web pages using HTML5, CSS3, and JavaScript with seamless cross-device performance — plus an interactive React.js dashboard focused on clean UI and component reusability.</p>
+            <ul class="proj-list">
+              <li>Built responsive pages ensuring consistent performance across devices and browsers.</li>
+              <li>Developed interactive dashboard interfaces with reusable React components.</li>
+              <li>Focused on clean visual hierarchy, accessibility-friendly structure, and UI polish.</li>
+            </ul>
+            <p class="proj-own">Ownership: Page Layouts → Component UI → Dashboard Screens → Responsive Delivery</p>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">HTML5</span>
+              <span class="proj-tag">CSS3</span>
+              <span class="proj-tag">JavaScript</span>
+              <span class="proj-tag">UI/UX Design</span>
+            </div>
+          </article>
+
+          <article class="proj featured">
+            <div class="proj-type">Enterprise Portal · Analytics</div>
+            <h3>MSPHC Portal</h3>
+            <p class="proj-role">Frontend Developer · Chart.js · Task Modules</p>
+            <p>Responsive web application utilizing Chart.js for data visualization with insightful graphical analytics — including modules for onboarding organizations/employees, task assignments, and work allotment.</p>
+            <ul class="proj-list">
+              <li>Implemented Chart.js visualizations for operational and analytical reporting views.</li>
+              <li>Designed onboarding and task-assignment modules for organizations and employees.</li>
+              <li>Delivered a responsive React.js + Bootstrap interface for enterprise portal workflows.</li>
+            </ul>
+            <p class="proj-own">Ownership: Portal UI → Charts → Onboarding Modules → Task Workflows → Delivery</p>
+            <div class="proj-tags">
+              <span class="proj-tag">React.js</span>
+              <span class="proj-tag">Chart.js</span>
+              <span class="proj-tag">Bootstrap</span>
+              <span class="proj-tag">Task Management</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="show-more-row">
+          <button class="btn-show-more" id="projShowMore" type="button" aria-expanded="false" aria-controls="projMore">
+            Show more projects
+          </button>
+        </div>
+
+        <div class="proj-more-wrap" id="projMore" hidden>
+          <div class="proj-grid">
+            <article class="proj featured">
+              <div class="proj-type">Education MIS · Content Portal</div>
+              <h3>Medical Education MIS</h3>
+              <p class="proj-role">Frontend Developer · UI Design · Content Browsing</p>
+              <p>Complete frontend UI for a medical education website allowing users to browse, search, and download medical study materials, syllabus records, and educational e-books with intuitive navigation.</p>
+              <ul class="proj-list">
+                <li>Designed browse/search/download flows for study materials and e-books.</li>
+                <li>Built responsive layouts with HTML5/CSS3 and backend API integration points.</li>
+                <li>Focused on clear navigation and readable content presentation for learners.</li>
+              </ul>
+              <p class="proj-own">Ownership: UI Design → Content Screens → Search &amp; Download Flows → Responsive Delivery</p>
+              <div class="proj-tags">
+                <span class="proj-tag">HTML5 / CSS3</span>
+                <span class="proj-tag">PHP / Backend API</span>
+                <span class="proj-tag">Responsive UI</span>
+                <span class="proj-tag">E-Books Portal</span>
+              </div>
+            </article>
+
+            <article class="proj featured">
+              <div class="proj-type">Industrial Tech · Process Monitoring</div>
+              <h3>Plant Process Monitoring</h3>
+              <p class="proj-role">Frontend Developer · Workflow UI · State Management</p>
+              <p>Industrial operations and plant monitoring software tailored for step-by-step process supervision, quality checkpoints, and real-time operational status updates with modern frontend state management.</p>
+              <ul class="proj-list">
+                <li>Built step-by-step process supervision screens and quality checkpoint UI.</li>
+                <li>Implemented real-time operational status views with React.js state management.</li>
+                <li>Tracked delivery and requirements through Jira within Agile sprint cycles.</li>
+              </ul>
+              <p class="proj-own">Ownership: Process Screens → Checkpoint UI → State Management → Status Views → Delivery</p>
+              <div class="proj-tags">
+                <span class="proj-tag">React.js</span>
+                <span class="proj-tag">Process Workflows</span>
+                <span class="proj-tag">State Management</span>
+                <span class="proj-tag">Jira Tracking</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education &amp; Credentials</h2>
+          <p class="section-subtitle">Strong academic foundation in computer applications and software engineering.</p>
+        </div>
+
+        <div class="education-grid">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="edu-details">
+              <div class="edu-year">2022 &mdash; 2024</div>
+              <h3>Master of Computer Applications (MCA)</h3>
+              <p class="edu-institution">Sant Gadge Baba Amravati University</p>
+              <div class="edu-score">
+                <span class="score-badge">Scored 8.7 CGPA</span>
+              </div>
+              <p class="edu-desc">
+                Completed postgraduate degree with distinction. Focused on advanced software development, web frameworks, algorithms, database architectures, and responsive frontend systems.
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="edu-details">
+              <div class="edu-year">Graduation Degree</div>
+              <h3>Bachelor's Graduation Degree</h3>
+              <p class="edu-institution">Undergraduate Degree</p>
+              <div class="edu-score">
+                <span class="score-badge">Scored 8.9 CGPA</span>
+              </div>
+              <p class="edu-desc">
+                Graduated with top academic standing, mastering fundamental computer science principles, object-oriented programming, and web development fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="delivery-contact-card">
+          <h2 class="delivery-title serif-title">Let’s talk delivery</h2>
+          <p class="delivery-subtitle">
+            Open to conversations about frontend engineering, React.js platforms, UI/UX architecture, dashboard solutions, or full-time opportunities. Email me directly.
+          </p>
+
+          <div class="delivery-buttons-row">
+            <a href="mailto:rautshubhangi199@gmail.com" class="btn-delivery">
+              <i class="fa-regular fa-envelope"></i> rautshubhangi199@gmail.com
+            </a>
+            <a href="tel:+919579320846" class="btn-delivery">
+              <i class="fa-solid fa-phone"></i> +91 9579320846
+            </a>
+            <a href="assets/Shubhangi_Raut_Resume.pdf" download="Shubhangi_Raut_Resume.pdf" class="btn-delivery">
+              <i class="fa-solid fa-arrow-down"></i> Download Resume
+            </a>
+            <a href="https://www.linkedin.com/in/shubhangi-raut-429584286/" target="_blank" rel="noopener" class="btn-delivery">
+              <span class="btn-in-icon">in</span> LinkedIn
+            </a>
+            <a href="https://github.com/rautshubhangi199-code" target="_blank" rel="noopener" class="btn-delivery">
+              <span class="btn-cmd-icon">&#8984;</span> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; 2026 Shubhangi Raut. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/rautshubhangi199-code" target="_blank" rel="noopener" class="footer-btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/shubhangi-raut-429584286/" target="_blank" rel="noopener" class="footer-btn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
